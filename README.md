@@ -12,6 +12,17 @@
 
 ---
 
+## 📔 Requisitos
+
+*Es requisito para asistir a SimMat 2026 haber cursado previamente al menos una de las siguientes asignaturas, o contar con experiencia equivalente en los tópicos abordados en la escuela:
+
+- Física Moderna/Contemporánea.
+- Química Cuántica I.
+- Mecánica Cuántica I
+
+---
+
+
 ## 📝 Inscripción
 
 🔗 **[Formulario de inscripción](https://docs.google.com/forms/d/e/1FAIpQLScS5EmQjepaPnZ_doQj8db4NRDl2WTf-zp1yhLLy6k1Avg_rg/viewform?usp=header)**  
@@ -35,7 +46,7 @@ Agradecemos enormemente cualquier apoyo.
 <!-- Alternativamente puedes usar: -->
 <!-- ![Afiche SimMat 2026](./images/poster.png) -->
 
----
+<!---
 
 ## 👩‍🏫 Contenido y Talleres
 - Introducción a los métodos de función de onda (HF y Post-HF methods).
