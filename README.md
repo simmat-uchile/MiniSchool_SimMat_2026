@@ -53,7 +53,7 @@ Agradecemos enormemente cualquier apoyo.
 
 ### 👨‍🏫👩‍🏫 Tutores
 
-Los talleres y sesiones prácticas serán guiados por jóvenes investigadores y académicos con experiencia en simulación computacional de materiales y química cuántica:
+Los talleres y sesiones prácticas serán guiados por jóvenes investigadores y académicos con experiencia en simulación computacional de materiales y química cuántica (tentativamente):
 
 - **Nicolás F. Barrera**        — *Laboratoire de Chimie Théorique, Sorbonne Université*. 
 - **Javiera Cabezas-Escares**   — *Departamento de Física, Universidad de Chile*.
