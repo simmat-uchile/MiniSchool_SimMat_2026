@@ -46,7 +46,7 @@ Agradecemos enormemente cualquier apoyo.
 <!-- Alternativamente puedes usar: -->
 <!-- ![Afiche SimMat 2026](./images/poster.png) -->
 
-<!---
+<!--- -->
 
 ## 👩‍🏫 Contenido y Talleres
 - Introducción a los métodos de función de onda (HF y Post-HF methods).
