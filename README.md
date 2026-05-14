@@ -15,7 +15,7 @@
 ## 📝 Inscripción
 
 🔗 **[Formulario de inscripción](https://docs.google.com/forms/d/e/1FAIpQLScS5EmQjepaPnZ_doQj8db4NRDl2WTf-zp1yhLLy6k1Avg_rg/viewform?usp=header)**  
-📌 **Cupos limitados - Participación gratuita con inscripción previa**
+📌 **Cupos limitadosa**
 
 ---
 
