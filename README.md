@@ -19,8 +19,6 @@
 
 ---
 
----
-
 ## 💸 Fee / Aporte
 La participación en Mini School: SimMat 2026 es gratuita. Sin embargo, la organización de esta actividad implica gastos asociados a materiales, coffee breaks y logística general.
 Por ello, invitamos cordialmente a quienes tengan la posibilidad de colaborar mediante un aporte voluntario, lo que nos ayudará a cubrir parte de los costos de organización y a seguir impulsando este tipo de iniciativas abiertas para estudiantes e investigadores jóvenes.
