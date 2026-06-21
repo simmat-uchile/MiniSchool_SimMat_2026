@@ -18,7 +18,7 @@
 
 - Física Moderna/Contemporánea.
 - Química Cuántica I.
-- Mecánica Cuántica I
+- Mecánica Cuántica I.
 
 ---
 
