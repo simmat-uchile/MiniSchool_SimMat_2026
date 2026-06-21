@@ -56,7 +56,8 @@ Agradecemos enormemente cualquier apoyo.
 - Cálculos de estructura electrónica para estado sólido.
 - Introducción a VASP y Quantum Espresso.
 - Estudio de sistemas magnéticos desde cálculos ab-initio.
-- Estudio de materiales bidimensionales, catálisis y reactividad en superficies. 
+- Estudio de materiales bidimensionales, catálisis y reactividad en superficies.
+- Dinámica Molecular Ab initio.
 
 ---
 
@@ -70,6 +71,7 @@ Los talleres y sesiones prácticas serán guiados por jóvenes investigadores y 
 - **Andrea Echeverri**          — *Departamento de Física, Universidad de Chile*.
 - **Andrea León**               — *Departamento de Física, Universidad de Chile*.
 - **Leopoldo Mejía**            — *Departamento de Física, Universidad Andrés Bello*.
+- **Francisco Munoz**            — *Departamento de Física, Universidad de Chile*.
 
 ---
 
