@@ -1,7 +1,7 @@
 #!/bin/bash
 # ----------------SLURM Parameters----------------
 #SBATCH -p general 
-##SBATCH --reservation=simmat
+#SBATCH --reservation=simmat
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4  
