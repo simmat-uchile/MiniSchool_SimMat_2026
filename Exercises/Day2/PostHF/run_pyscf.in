@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=pyscf
+#SBATCH --partition=general
+#SBATCH --reservation=simmat
+#SBATCH -c 2 #numero de CPUs
+#SBATCH --output=example.out
+#SBATCH --error=example.err
+#SBATCH --mem=1500
+#SBATCH -t 0-00:10:00
+#SRUN --export=ALL
+
+ml miniconda3
+source $(conda info --base)/etc/profile.d/conda.sh
+conda activate pyscf-env
+
+python H_correlation.py >> H_correlation.out
