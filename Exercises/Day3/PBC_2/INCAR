@@ -1,0 +1,12 @@
+SYSTEM = graphene
+ENCUT = 500
+
+# electronic
+PREC = Accurate
+EDIFF = 1e-8
+ISMEAR = 0
+SIGMA = 0.01 
+
+ndp:
+LNBO=.T.
+ISYM=0
