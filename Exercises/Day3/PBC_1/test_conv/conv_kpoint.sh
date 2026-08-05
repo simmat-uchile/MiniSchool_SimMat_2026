@@ -3,9 +3,10 @@
 #SBATCH -J K_Conv_Test
 #SBATCH -p general                   # Partition to submit to
 #SBATCH --reservation=simmat
-#SBATCH -n 1
-#SBATCH --ntasks-per-node=1
-#SBATCH -c 2                      # Requesting 4 cores is sufficient for these calculations
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --ntasks-per-node=4
+#SBATCH --cpus-per-task=1                    # Requesting 4 cores is sufficient for these calculations
 #SBATCH --mem-per-cpu=2000
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=your_email@example.com # Change to your email
