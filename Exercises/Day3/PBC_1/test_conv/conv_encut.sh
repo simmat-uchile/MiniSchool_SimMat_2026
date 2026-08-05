@@ -60,6 +60,7 @@ ENCUT = ${ENCUT}  ! energy cutoff
 ISMEAR = 0        ! Gaussian smearing
 SIGMA = 0.2      ! width of the smearing
 EDIFF = 1e-6      ! electronic convergence
+NCORE = 4
 
 EOF
 
