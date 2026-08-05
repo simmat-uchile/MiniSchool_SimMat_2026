@@ -1,0 +1,39 @@
+&CONTROL
+ calculation  = 'scf',
+ prefix       = 'qe',
+ pseudo_dir   = './',
+ outdir       = './',
+/
+&SYSTEM    
+ ibrav        = 0
+ nat          = 2,
+ ntyp         = 1,
+ ecutwfc      = 45,
+ smearing     = 'gaussian',
+ occupations  = 'smearing',
+ degauss      = 0.01,
+ assume_isolated = '2D',
+/
+&ELECTRONS
+ conv_thr     = 1.0d-10
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+ C  12.011 C.upf 
+
+CELL_PARAMETERS (angstrom)
+   1.215778112  -2.105789461   0.000000000
+   1.215778112   2.105789461   0.000000000
+   0.000000000   0.000000000  20.000000000
+
+ATOMIC_POSITIONS (crystal)
+C             0.0000000000        0.0000000000        0.5000000000
+C             0.3333333333        0.6666666667        0.5000000000
+
+K_POINTS AUTOMATIC
+  7 7 1 0 0 0
+

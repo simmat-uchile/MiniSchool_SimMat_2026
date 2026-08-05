@@ -1,0 +1,9 @@
+&inputph
+  prefix     = 'qe',
+  outdir     = './',
+  tr2_ph     = 1.0d-14,
+  fildvscf   = 'dvscf',
+  fildyn     = 'dyn',
+  ldisp      = .true.,
+  nq1 = 3, nq2 = 3, nq3 = 1,
+/
