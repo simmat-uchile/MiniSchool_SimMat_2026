@@ -1,0 +1,32 @@
+SYSTEM = graphene vacuum convergence
+
+# Precisión de ondas planas
+ENCUT = 500
+
+# Ocupaciones electrónicas
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Cálculo estático
+NSW    = 0
+IBRION = -1
+
+# Algoritmo electrónico
+ALGO = Normal
+NELM = 150
+
+# Tratamiento PAW
+LASPH   = .TRUE.
+ADDGRID = .TRUE.
+LREAL   = .FALSE.
+
+# Espín
+ISPIN = 1
+
+# Archivos de salida
+LCHARG = .TRUE.
+LAECHG = .FALSE.
+LWAVE  = .FALSE.
+LELF   = .FALSE.
+
+NCORE  = 4
