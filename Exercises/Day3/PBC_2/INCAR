@@ -1,12 +1,31 @@
-SYSTEM = graphene
+# Precisión de ondas planas
 ENCUT = 500
 
-# electronic
-PREC = Accurate
-EDIFF = 1e-8
+# Ocupaciones electrónicas
 ISMEAR = 0
-SIGMA = 0.01 
+SIGMA  = 0.05
 
-ndp:
-LNBO=.T.
-ISYM=0
+#
+ISIF = 3 
+NSW    = 10
+IBRION = 2
+
+# Algoritmo electrónico
+ALGO = Normal
+NELM = 150
+
+# Tratamiento PAW
+LASPH   = .TRUE.
+ADDGRID = .TRUE.
+LREAL   = .FALSE.
+
+# Espín
+ISPIN = 1
+
+# Archivos de salida
+LCHARG = .TRUE.
+LAECHG = .FALSE.
+LWAVE  = .FALSE.
+LELF   = .FALSE.
+
+NCORE  = 4
