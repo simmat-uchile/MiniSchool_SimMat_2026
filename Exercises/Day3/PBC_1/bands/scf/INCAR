@@ -1,0 +1,19 @@
+SYSTEM = RELAX (ENCUT = 300, 12x12x9)
+ISTART = 0        ! don't read WAVECAR
+ENCUT = 300  ! energy cutoff
+ISMEAR = 1        ! Gaussian smearing
+SIGMA = 0.1      ! width of the smearing
+EDIFF = 1e-6      ! electronic convergence
+
+LORBIT = 11
+LREAL = False 
+LWAVE = False 
+
+# Relax
+#NSW = 10        ! max number of ionic steps
+#IBRION = 2      ! ionic relaxation  (conjugate gradient algorithm)
+#ISIF = 3        ! relajar todo
+#EDIFFG = -1E-2  ! break condition for the ionic relaxation loop
+#NELM = 100      ! max number of electronic SC steps
+
+ICHARG=2
