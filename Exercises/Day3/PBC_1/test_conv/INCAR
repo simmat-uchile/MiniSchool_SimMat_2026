@@ -15,3 +15,5 @@ LWAVE = False
 #ISIF = 3        ! relajar todo
 #EDIFFG = -1E-2  ! break condition for the ionic relaxation loop
 #NELM = 100      ! max number of electronic SC steps
+
+NCORE = 4
