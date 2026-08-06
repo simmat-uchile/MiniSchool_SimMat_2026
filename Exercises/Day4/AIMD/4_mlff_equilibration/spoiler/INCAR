@@ -1,0 +1,36 @@
+ALGO = VeryFast
+EDIFF = 0.005
+ENCUT = 100 # correr `grep ENMAX POTCAR`
+
+LWAVE = False
+LCHARG = False
+ 
+LREAL = Auto
+NELM = 100
+PREC = singleN
+SIGMA = 0.1
+NWRITE = 1
+NCORE = 4
+
+# MD - Equilibration (NpT)
+IBRION = 0
+MDALGO = 3             ! Langevin thermostat (best for equilibration)
+ISIF   = 3             ! Allow cell volume and shape to change
+POTIM  = 2.0           ! 2 fs time step
+TEBEG  = 600           ! Target temperature
+LANGEVIN_GAMMA = 10.0  ! Friction coefficient for atoms (ps^-1)
+LANGEVIN_GAMMA_L = 10.0 ! Friction for the lattice (box)
+PMASS  = 100           ! Fictitious mass for lattice
+NSW    = 2000          ! Run for 4 ps to melt and stabilize volume
+ISYM   = 0
+PSTRESS = 0 ! Target pressure, 1 ATM ~ 0
+
+# --- Machine Learning Force Field Setup ---
+ML_LMLFF = .TRUE.    ! Master switch to turn on MLFF
+ML_MODE  = TRAIN     ! On-the-fly learning mode
+
+# Stuff for decreasing memory usage, avoid if possible
+ML_MB = 500
+ML_LMAX2 = 3
+ML_RCUT1 = 4.0
+ML_RCUT2 = 4.0
