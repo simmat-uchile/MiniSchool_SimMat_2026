@@ -1,0 +1,37 @@
+ALGO = VeryFast
+EDIFF = 0.003
+ENCUT = 100 
+LASPH = False
+
+LWAVE = False
+LCHARG = False
+ 
+LREAL = Auto
+NELM = 100
+PREC = SingleN
+SIGMA = 0.1
+MAXMIX = 45
+NWRITE = 1
+NCORE = 4
+
+# MD - Production (NVT Ensemble)
+IBRION = 0
+MDALGO = 2         ! Nosé-Hoover thermostat (preserves real dynamics)
+ISIF   = 2         ! Lock the cell volume and shape
+SMASS  = 0         ! Thermostat mass (0 is the recommended default)
+POTIM  = 2.0       ! 2.0 fs time step
+TEBEG  = 600       ! Target temperature
+TEEND  = 600       ! Maintain 600 K
+NSW    = 5000       ! (See note below on step count)
+ISYM   = 0         ! Symmetry MUST remain off
+
+NPAR = 1 # 1-2 per physical CPU (not core)
+
+ML_LMLFF = .TRUE.    ! Master switch to turn on MLFF
+ML_MODE  = TRAIN     ! On-the-fly learning mode
+
+# Stuff for decreasing memory usage, avoid if possible
+ML_MB = 500
+ML_LMAX2 = 3
+ML_RCUT1 = 4.0
+ML_RCUT2 = 4.0
