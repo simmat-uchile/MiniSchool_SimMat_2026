@@ -44,6 +44,7 @@ EOF
 #---------------Script SBATCH - NLHPC ----------------
 #SBATCH -J ev_${p}
 #SBATCH -p general
+#SBATCH --reservation=simmat
 #SBATCH -n 1
 #SBATCH --ntasks-per-node=1
 #SBATCH -c 1
