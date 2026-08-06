@@ -1,0 +1,28 @@
+ALGO = VeryFast
+EDIFF = 0.003
+ENCUT = 100 
+LASPH = False
+
+LWAVE = False
+LCHARG = False
+ 
+LREAL = Auto
+NELM = 100
+PREC = SingleN
+SIGMA = 0.1
+MAXMIX = 45
+NWRITE = 1
+
+
+# MD - Production (NVT Ensemble)
+IBRION = 0
+MDALGO = 2         ! Nosé-Hoover thermostat (preserves real dynamics)
+ISIF   = 2         ! Lock the cell volume and shape
+SMASS  = 0         ! Thermostat mass (0 is the recommended default)
+POTIM  = 2.0       ! 2.0 fs time step
+TEBEG  = 600       ! Target temperature
+TEEND  = 600       ! Maintain 600 K
+NSW    = 2000       ! (See note below on step count)
+ISYM   = 0         ! Symmetry MUST remain off
+
+NPAR = 1 # 1-2 per physical CPU (not core)
