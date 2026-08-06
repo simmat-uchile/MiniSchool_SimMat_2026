@@ -1,0 +1,36 @@
+
+#### Electromic relaxation
+
+ALGO = Fast     # Diagonalization (electrons), a reliable fast algorithm  
+EDIFF = 0.0001  # A not so-stringent SCF convergence criterion
+ENCUT = 520.0   # Kinetic energy cutoff (e.g. completeness of the basis).
+                # a way too large for MD. Tip run `grep ENMAX POTCAR`,
+                # set ENCUT = ENMAX (put the number, 140.0). If there
+                # are more than one number keep the largest one.
+                # If you change the lattice vectors, increase ENCUT by a
+                # ~30%, e.g. `ENCUT = 180`
+LASPH = True    # non-spherical contributions near muclei, why not.
+ISMEAR = -5     # How to deal with occupations near Fermi level
+SIGMA = 0.05    # How to deal with occupations near Fermi level
+LREAL = Auto    # How to deal with projectors, leave it at Auto
+NELM = 100      # Maximum number of electronic steps for SCF
+PREC = A        # General accuracy, decrease for MD
+
+
+#### I/O settings
+
+LWAVE = False   # write massive WF file, skip it. 
+LCHARG = False  # write massive charges density files, disable for MD.
+LORBIT = 11     # projection of WF into atoms/orbitals, massive
+
+#### ionic relaxation 
+
+IBRION = 2      # Conjugate gradient 
+ISIF = 3        # relax ions and cell volume / shape
+NSW = 99        # Max number of ionic steps
+
+#### Magnetism
+ISPIN = 2       # Spin-polarized calculation, nonsense for Li
+MAGMOM = 2*0.6  # a initial magnetization (guess) of 0.6 per atom.
+                # Nonsense for Li
+ 
