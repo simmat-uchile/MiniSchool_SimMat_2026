@@ -1,12 +1,12 @@
 #!/bin/bash                                                                     
 #---------------Script SBATCH - NLHPC ----------------                          
 #SBATCH -J foo                                                                  
-#SBATCH -p general                                                              
+#SBATCH -p general
+#SBATCH --reservation=simmat
 #SBATCH -n 1                                                                   
 #SBATCH --ntasks-per-node=1                                                    
 #SBATCH -c 1                                                                    
-#SBATCH --mem-per-cpu=1000
-#SBATCH --mail-user=andrea.leon@uchile.cl                       
+#SBATCH --mem-per-cpu=1000                      
 #SBATCH --mail-type=ALL                                                         
 #SBATCH -o foo_%j.out                                                           
 #SBATCH -e foo_%j.err                                                           
