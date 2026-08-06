@@ -1,7 +1,8 @@
 #!/bin/bash                                                                     
 #---------------Script SBATCH - NLHPC ----------------                          
 #SBATCH -J foo                                                                  
-#SBATCH -p general                                                              
+#SBATCH -p general
+#SBATCH --reservation=simmat
 #SBATCH -n 1                                                                   
 #SBATCH --ntasks-per-node=1                                                    
 #SBATCH -c 1                                                                    
