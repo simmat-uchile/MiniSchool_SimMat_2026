@@ -1,0 +1,25 @@
+ALGO = Fast
+EDIFF = 0.0001
+ENCUT = 300 # correr `grep ENMAX POTCAR`
+LASPH = True
+
+LWAVE = False
+LCHARG = False
+ 
+LREAL = Auto
+NELM = 100
+PREC = N
+SIGMA = 0.1
+
+# MD - Equilibration (NpT)
+IBRION = 0
+MDALGO = 3             ! Langevin thermostat (best for equilibration)
+ISIF   = 3             ! Allow cell volume and shape to change
+POTIM  = 2.0           ! 2 fs time step
+TEBEG  = 600           ! Target temperature
+LANGEVIN_GAMMA = 10.0  ! Friction coefficient for atoms (ps^-1)
+LANGEVIN_GAMMA_L = 10.0 ! Friction for the lattice (box)
+PMASS  = 100           ! Fictitious mass for lattice
+NSW    = 2000          ! Run for 4 ps to melt and stabilize volume
+ISYM   = 0
+PSTRESS = 0 ! Target pressure, 1 ATM ~ 0
